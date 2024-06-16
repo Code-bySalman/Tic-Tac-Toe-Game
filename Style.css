@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #606C38;
+    text-align: center;
+}
+
+h2{
+    
+    color: #FEFAE0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+}
+
+.container{
+    height: 70vh;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vmin;
+}
+    
+.game{
+    height: 70vmin;
+    width: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem black;
+    background-color: #FEFAE0;
+    font-size: 8vmin;
+    color: #283618;
+    
+}
+#btn{
+    padding: 1rem;
+    font-size: 1.6rem;
+    background-color: #DDA15E;
+    color: white;
+    font-family: monospace;
+    border-radius: 1.5vmin;
+}
+ #new{
+   
+    padding: 1rem;
+    font-size: 1.6rem;
+    background-color: #DDA15E;
+    color: white;
+    font-family: monospace;
+    border-radius: 1.5vmin;
+ }
+ #msg{
+    color: #FEFAE0;
+    font-size: 5vmin;
+ }
+ .msg-container{
+    
+ }
+ .one{
+    margin-top: 2vmin;
+    margin-bottom: 5vmin;
+ }
+ .hide{
+    display: none;
+ }
