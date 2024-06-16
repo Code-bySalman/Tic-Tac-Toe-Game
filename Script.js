@@ -73,3 +73,17 @@ const winningPattern = [
   Rb.addEventListener("click", ()=>{
     resetGame();
   })
+
+    let isWinner = checkWinner();
+
+    if (count === 9 && !isWinner) {
+      gameDraw();
+    }
+  });
+});
+
+const gameDraw = () => {
+  msg.innerText = `Game was a Draw.`;
+  msgContainer.classList.remove("hide");
+  disableBoxes();
+};
